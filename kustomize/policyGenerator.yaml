@@ -6,8 +6,7 @@ policyDefaults:
   namespace: policies-appset
   remediationAction: enforce
   severity: medium
-  placement:
-    name: policies-appset-placement
+  placementName: "policies-appset-placement"
 policies:
   - name: policy-generator-blog-app
     manifests:
