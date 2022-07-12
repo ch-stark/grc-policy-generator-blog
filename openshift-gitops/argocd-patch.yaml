@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ArgoCD
 metadata:
-  name: openshift-gitops
+  name: policies-appset
   namespace: policies-appset
 spec:
   repo:
