@@ -3,9 +3,11 @@ kind: PolicyGenerator
 metadata:
   name: policy-generator-blog
 policyDefaults:
-  namespace: policy-generator-blog
+  namespace: policies-appset
   remediationAction: enforce
   severity: medium
+  placement:
+    name: policies-appset-placement
 policies:
   - name: policy-generator-blog-app
     manifests:
