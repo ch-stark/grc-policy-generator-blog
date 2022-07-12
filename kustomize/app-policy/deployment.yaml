@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: demodeploy
-  namespace: policies-appset-placement
+  namespace: policies-appset
   labels:
     app: policy-generator-blog
 spec:
