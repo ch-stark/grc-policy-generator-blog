@@ -6,7 +6,7 @@ policyDefaults:
   namespace: policies-appset
   remediationAction: enforce
   severity: medium
-  placementName: "policies-appset-placement"
+  placementpath: placement.yaml
 policies:
   - name: policy-generator-blog-app
     manifests:
