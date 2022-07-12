@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: policies-appset
     server: https://kubernetes.default.svc
-  project: default
+  project: policies-appset 
   source:
     path: kustomize
     repoURL: https://github.com/ch-stark/grc-policy-generator-blog.git
