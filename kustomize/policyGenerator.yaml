@@ -7,7 +7,7 @@ policyDefaults:
   remediationAction: enforce
   severity: medium
   placement:
-    placementpath: placement.yaml
+    placementPath: placement.yaml
 policies:
   - name: policy-generator-blog-app
     manifests:
